@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Общая информация</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/selectivizr-min.js"></script>
+    <![endif]-->
+</head>
+<body class="home">
+<!--[if lt IE 10]>
+    <p class="browserupgrade">Вы используете <b>устаревший</b> браузер. Пожалуйста, <a href="http://browsehappy.com/?locale=ru_ru">обновите свой браузер</a> чтобы улучшить опыт работы с сайтом.</p>
+<![endif]-->
+<header class="header-site" id="header">
+    <div class="header-site__top">
+        <div class="container header-site__top_i">
+            <a href="#" class="b-logo">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path class="cls-1" d="M24,0H6A5.83,5.83,0,0,0,0,5.63V24.38A5.82,5.82,0,0,0,6,30H24a5.82,5.82,0,0,0,6-5.62V5.63A5.83,5.83,0,0,0,24,0ZM19.64,22A22,22,0,0,1,15,26.25a19.73,19.73,0,0,1-4.65-4.09c-2-2.3-4.39-5.88-4.39-10a8.74,8.74,0,0,1,9-8.44,8.74,8.74,0,0,1,9,8.44C24,16,21.63,19.63,19.64,22ZM15,6a7,7,0,0,0-7,7,7.3,7.3,0,0,0,.14,1.4A7,7,0,1,0,15,6Zm3.94,8.4A4.15,4.15,0,1,1,19.2,13,4,4,0,0,1,18.94,14.4Z"/></svg>
+                <span class="logotype"><b>Gde</b>Uslugi</span>                
+           </a><!-- /.b-logo -->
+            <div class="b-region">
+                <p class="title">
+                    <i class="icn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg></i>
+                    <a class="link" href="#">Санкт-Петербург</a>
+                </p>
+            </div><!-- /.b-region -->
+
+            <div class="b-action-uslugi">
+                <a href="#">Услуги и специалисты</a>
+            </div><!-- /.b-action-1 -->
+
+            <div class="b-action-order">
+                <a href="#" class="btn btn-main">Заказать услугу</a>
+            </div><!-- /.b-action-2 -->
+
+            <form role="search" method="get" class="form-search-header" id="searchform" action="/">
+                <input type="text" class="search-field" autocomplete="off" placeholder="Найти исполнителя или услугу" title="Поиск" role="combobox">
+                <button type="submit" class="search-submit" id="searchsubmit" title="Поиск"><i class="fas fa-search"></i></button>
+            </form>
+
+            <div class="b-login">
+                <a href="#" class="b-login_i">
+                    <div class="b-username">Ольга Синицина</div>
+                    <div class="b-userpic">
+                        <img class="userpic" src="images/userpic.jpg" alt="userpic">
+                        <p class="notif-count">10</p>
+                    </div><!-- userpic -->
+               </a><!-- /.b-login_i -->
+            </div><!-- /.b-login -->
+        </div><!-- /.container -->
+    </div><!-- /.header-site__top -->
+</header>
+
+<main class="main-content">
+    <div class="container">
+        <h1 class="heading">Личный кабинет</h1>        
+        <div class="row-mod">
+            <aside class="col-sidebar site-sidebar">
+                <div class="userpic-dash">
+                    <div class="userpic-dash-photo">
+                        <img src="images/worker.jpg" alt="pic">
+                    </div>
+                    <p class="center"><a href="#" class="link-local">Загрузить фото</a></p>
+                </div><!-- userpic-dash -->
+                <button id="nav-toggle" class="btn btn-second btn-categs">Меню/категории <i class="fas fa-chevron-down"></i></button>
+                <ul role="menu" id="menu-categs" class="nav-menu menu-categs">
+                    <li role="menuitem" class="menu-item"><a href="#">Общая информация</a></li>
+                    <li role="menuitem" class="menu-item"><a href="#">Сообщения</a><b>+2</b></li>
+                    <li role="menuitem" class="menu-item"><a href="#">Предложения</a><b>+12</b></li>
+                    <li role="menuitem" class="menu-item"><a href="#">Заказы</a></li>
+                    <li role="menuitem" class="menu-item"><a href="#">Фото</a></li>
+                    <li role="menuitem" class="menu-item"><a href="#">Мастера</a></li>
+                </ul>
+            </aside><!-- /.col-sidebar -->
+            <div class="col-content site-content">                
+                <h1 class="heading-second">Общая информация</h1>
+                <div class="card-dash">
+                    <div class="card-dash-header">
+                        <h3 class="heading-dash">Контакты</h3>
+                        <a href="#" class="link-local">Редактировать</a>
+                    </div><!-- /.card-dash-header -->
+                    <div class="card-dash-content">
+                        <ul class="list-dash">
+                            <li class="list-dash-item"><p class="content">Воропай Юрий Алексеевич</p></li>
+                            <li class="list-dash-item"><i class="icon icon-location"></i><p class="content">Санкт-Петербург</p></li>
+                            <li class="list-dash-item"><i class="icon icon-phone"></i><p class="content">+7 926 933 38 76</p></li>
+                            <li class="list-dash-item"><i class="icon icon-email"></i><p class="content">username@mail.ru</p></li>
+                            <li class="list-dash-item"><p class="content">Частный мастер</p></li>
+                            <li class="list-dash-item"><p class="content">Выезд к клиенту: Москва, Московская обл.</p></li>
+                        </ul>
+                    </div><!-- /.card-dash-content -->
+                </div><!-- /.card-dash -->
+
+                <div class="card-dash">
+                    <div class="card-dash-header">
+                        <h3 class="heading-dash">Специализация</h3>
+                        <a href="#" class="link-local">Редактировать</a>
+                    </div><!-- /.card-dash-header -->
+                    <div class="card-dash-content">
+                        <ul class="list-dash-spec">
+                            <li class="list-dash-spec-item">художник  </li>
+                            <li class="list-dash-spec-item">графический дизайнер  </li>
+                            <li class="list-dash-spec-item">художественная резьба по камню  </li>
+                            <li class="list-dash-spec-item">художественная резьба по дереву  </li>
+                            <li class="list-dash-spec-item">художественная резьба по кости  </li>
+                            <li class="list-dash-spec-item">художественная роспись стен</li>
+                        </ul>
+                    </div><!-- /.card-dash-content -->
+                </div><!-- /.card-dash -->
+
+                <div class="card-dash">
+                    <div class="card-dash-header">
+                        <h3 class="heading-dash">Обо мне</h3>
+                        <a href="#" class="link-local">Редактировать</a>
+                    </div><!-- /.card-dash-header -->
+                    <div class="card-dash-content">
+                        <p>Разнообразный и богатый опыт сложившаяся структура организации требуют определения и уточнения соответствующий условий активизации. Повседневная практика показывает, что сложившаяся структура организации влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</p>
+                    </div><!-- /.card-dash-content -->
+                </div><!-- /.card-dash -->                
+            </div><!-- /.col-content -->
+        </div><!-- /.row-mod -->        
+    </div><!-- /.container -->
+</main><!-- /.main-content -->
+
+<footer class="footer-site" id="footer">
+    <div class="container">
+        <div class="row-mod">
+            <div class="col-sidebar">
+                <a href="/" class="appsore"><img src="images/appstore@2x.png" alt="Скачать на Appstore"></a>
+            </div><!-- col-sidebar -->
+            <div class="col-content">
+                <div class="row-mod">
+                    <div class="col-footer">
+                        <h4 class="heading">О проэкте</h4>
+                        <ul role="menu" class="nav-menu">
+                            <li role="menuitem" class="menu-item"><a href="/">Правила ресурса</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Как стать специалистом</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Контакты</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Партнерская программа</a></li>
+                        </ul>
+                    </div><!-- /.col-footer -->
+                    <div class="col-footer">
+                        <h4 class="heading">Рекламодателям</h4>
+                        <ul role="menu" class="nav-menu">
+                            <li role="menuitem" class="menu-item"><a href="/">Master - аккаунт</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Реклама на сайте</a></li>
+                        </ul>
+                    </div><!-- /.col-footer -->
+                    <div class="col-footer">
+                        <h4 class="heading">Помощь</h4>
+                        <ul role="menu" class="nav-menu">
+                            <li role="menuitem" class="menu-item"><a href="/">Частые вопросы</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Техническая поддержка</a></li>
+                        </ul>
+                    </div><!-- /.col-footer -->
+                    <div class="col-footer">
+                        <h4 class="heading">Разделы</h4>
+                        <ul role="menu" class="nav-menu">
+                            <li role="menuitem" class="menu-item"><a href="/">Каталог специалистов</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Стать специалистом</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Полезные статьи</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Цены на услуги</a></li>
+                        </ul>
+                    </div><!-- /.col-footer -->
+                </div><!-- /.row-mod -->
+                <div class="row-mod">
+                    <div class="col-footer col-footer-wide">
+                        <ul role="menu" class="nav-menu nav-menu-inline">
+                            <li role="menuitem" class="menu-item"><a href="/">Публичная оферта</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Конфиндециальность</a></li>
+                            <li role="menuitem" class="menu-item"><a href="/">Правила</a></li>
+                        </ul>
+                    </div><!-- /.col-footer -->
+                    <div class="col-footer">
+                        <ul role="menu" class="nav-menu nav-menu-social nav-menu-social-footer">
+                            <li role="menuitem" class="menu-item"><a href="/"><i class="fab fa-vk"></i></a></li>
+                            <li role="menuitem" class="menu-item"><a href="/"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li role="menuitem" class="menu-item"><a href="/"><i class="fab fa-twitter"></i></a></li>
+                        </ul>                        
+                    </div><!-- /.col-footer -->
+                </div><!-- /.row-mod -->
+            </div><!-- col-content -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</footer>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
